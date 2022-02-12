@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     transition: 0.5s;
 }
@@ -13,9 +17,11 @@ img {
 
 form {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 550px;
     margin: 15px;
     border: 1px solid yellowgreen;
 }
@@ -29,12 +35,12 @@ form {
 }
 
 input {
-    width: 100px;
+    width: 150px;
 }
 
 .btn {
     color: #fff;
-    width: 50px;
+    width: 80px;
     background-color: #417241;
     border: 2px solid #bebe03;
     border-radius: 5px;
